@@ -1,7 +1,7 @@
 #General Usage
 Deploy the container and it will run the off.sh script and turn off wiringpi pin #5 with no arguments.
 
-## Arguments
+## Docker image arguments
 - ARG1 is the name of the script to run
     - off.sh - turn off the LED. Use this with a kubernetes job
     - on.sh - solid on. Use this with a kubernetes job
